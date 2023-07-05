@@ -28,6 +28,21 @@
       subMaxLevel: 3,
       homepage: 'README.md',
       auto2top: true,// 切换页面跳转顶部
+      plugins: [
+        function(hook) {
+          var footer = [
+            '<hr/>',// 在线文档footer配置
+            '<footer style="display: flex; justify-content: center;">',
+            '<span><a href="https://github.com/zjzjzjzj1874/docsify">ZJZJZJZJ在线文档</a> &copy;2023.</span>',
+            // '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
+          });
+        }
+      ]
     }
   </script>
   <!-- Docsify v4 -->
