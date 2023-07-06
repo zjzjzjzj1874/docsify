@@ -12,7 +12,7 @@ use docsify to write your own docs &amp;&amp; deployment with k8s through jenkin
 
 ### 本地项目启动
 请先确保你本地安装了npm
-命令：`npm i docsify-cli -g && docsify serve docs`
+命令：`npm i docsify-cli -g && docsify serve docs -p 8080`
 
 
 ### 访问http://localhost:3000
