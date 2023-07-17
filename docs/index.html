@@ -20,9 +20,20 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      alias: {
+        // '/.*/_sidebar.md': '/_sidebar.md',
+        '/docs/(.*)': '/$1',
+        '/docs': '/README.md'
+      },
+      // routes: {
+      //   // Basic match w/ return string
+      //   '/docs': '"/_sidebar.md',
+      // },
+      // basePath: '/docs',
+      routerMode: 'history', // default: 'hash'
       search: "auto",
       el: '#app',
-      name: 'Docsify',// sidebar 上方显示的名称
+      name: 'ZJ博客小站',// sidebar 上方显示的名称
       repo: '',
       loadSidebar: true,
       loadNavbar: true,
@@ -39,7 +50,7 @@
           var footer = [
             '<hr/>',// 在线文档footer配置
             '<footer style="display: flex; justify-content: center;">',
-            '<span><a href="https://github.com/zjzjzjzj1874/docsify">ZJZJZJZJ在线文档</a> &copy;2023.</span>',
+            '<span><a href="https://github.com/zjzjzjzj1874/docsify">ZJ博客小站</a> &copy;2023.</span>',
             // '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
             '</footer>'
           ].join('');
