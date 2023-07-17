@@ -17,3 +17,7 @@ use docsify to write your own docs &amp;&amp; deployment with k8s through jenkin
 
 ### 访问http://localhost:3000
 ![访问预览](docs/static/overview.png ':size=WIDTHxHEIGHT')
+
+### TODO
+
+* [ ] [插件添加](https://github.com/docsifyjs/docs-zh/blob/master/plugins.md)
