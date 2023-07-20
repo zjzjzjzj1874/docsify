@@ -21,3 +21,6 @@ use docsify to write your own docs &amp;&amp; deployment with k8s through jenkin
 ### TODO
 
 * [ ] [插件添加](https://github.com/docsifyjs/docs-zh/blob/master/plugins.md)
+
+### More
+* 您可以把index.html中的一些css和js替换到国内来,这样国内访问速度可以更快,无需翻墙拉取静态资源文件.
